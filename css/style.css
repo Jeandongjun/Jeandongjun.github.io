@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #231c1a;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+h1 {
+    color:white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image:url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    text-indent: -9999px;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li {
+    display: inline;
+    margin-right: 2vw;
+}
+header a {
+    color:white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration:underline
+}
+.banner {
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    height: 95vh;
+    background-image: url("../images/banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner h2 {
+    font-size: 60px;
+    margin-top: 60px;
+}
+.banner p {
+    font-size: 18px;
+    margin: 25px 0;
+}
+.banner a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid #6c6c6c;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.slogan {
+    background-color: #485652;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+footer {
+    background-color: #147eff;
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.softwareIntroduction {
+    display: flex;
+}
+.softwareIntroduction img {
+    width: 50%;
+}
+.info {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.info p {
+    text-align: center;
+    line-height: 2em;
+}
+.product {
+    display: flex;
+    background-color: #ede9db;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 130px 60px;
+}
+.product div {
+    width: 300px;
+    text-align: center;
+}
+.product img {
+    width: 90%;
+    border-radius: 10px;
+}
+.product h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.product p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.Contacte {
+    background-color: #485652;
+    color: white;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Contacte a {
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+/* 响应式设计CSS语法 */
+@media screen and (max-width: 768px) {
+    header ul {
+        display: none;
+    }
+    header h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner h2 {
+        font-size: 40px;
+    }
+    .softwareIntroduction {
+        flex-direction: column;
+    }
+    .softwareIntroduction img {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .info h2 {
+        font-size: 30px;
+    }
+    .product {
+        flex-direction: column;
+        padding: 60px 0;
+    }
+    .product div {
+        margin-bottom: 30px;
+    }
+}
+.title h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.install h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.install p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.install img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+.install h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.uninstall p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.uninstall img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+.uninstall h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.issue p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.issue img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+.issue details {
+    width: 1000px;
+    background: rgb(206, 203, 203);
+    font-family: poppins;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.issue a {
+    color: black;
+}
+.questionnaire a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid #0e96e4;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.Video {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Videotitle {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* 基本按钮样式 */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0cb789;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* 鼠标悬停时的样式 */
+  .button:hover {
+    background-color: #057154;
+  }
+  
+  /* 点击时的样式 */
+  .button:active {
+    background-color: #057154;
+  }
+.slogan2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} 
+.project {
+    background-color: #7cdcf1;
+}
+.project a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid #6c6c6c;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.more {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
