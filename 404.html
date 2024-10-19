@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean的网站-404</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        h2 {text-align: center;}
+        p {text-align: center;}
+        body {
+    background-image: url('/images/404.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+    .center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    text-align: center;
+    }
+    .button {
+    position: absolute;
+    top: calc(50% + 20px); /* 调整这里的数值来控制按钮与文字的距离 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .button {
+    background-color: #0fa213; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+    </style>
+</head>
+<body>    
+    <header>
+    <h1>Jean的网站</h1>
+    <nav>
+    <ul>
+        <li><a href="/index.html">首页</a></li>
+        <li><a href="/download/index.html">下载</a></li>
+        <li><a href="/product/index.html">产品</a>
+        <li><a href="/about/index.html">关于我</a></li>
+        <li><a href="/help/index.html">帮助</a></li>
+    </ul>
+    </nav>
+    </header>
+    <main>
+        <div class="center-text">
+            <h2>404</h2>
+            <p>页面走丢啦！</p>
+          </div>
+        <a href="/" style="text-decoration: none">
+            <button class="button button1">返回首页</button>
+        </a>
+    </main>
+</body>
+</html>
