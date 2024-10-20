@@ -180,40 +180,50 @@ footer {
     display: flex;
     justify-content: center;
 }
-.install h3 {
+.pc-install h3 {
     text-align: center;
     display: flex;
     justify-content: center;
 }
-.install p {
+.pc-install p {
     text-align: center;
     display: flex;
     justify-content: center;
 }
-.install img {
+.pc-install img {
     display: block;
     margin: auto;
     width: 40%;
 }
-.install h3 {
+.pc-install h3 {
     text-align: center;
     display: flex;
     justify-content: center;
 }
-.uninstall p {
+.pc-uninstall p {
     text-align: center;
     display: flex;
     justify-content: center;
 }
-.uninstall img {
+.pc-uninstall img {
     display: block;
     margin: auto;
     width: 40%;
 }
-.uninstall h3 {
+.pc-uninstall h3 {
     text-align: center;
     display: flex;
     justify-content: center;
+}
+.mobile-install p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.mobile-install img {
+    display: block;
+    margin: auto;
+    width: 40%;
 }
 .issue p {
     text-align: center;
@@ -232,7 +242,12 @@ footer {
     font-size: 12px;
     padding: 10px;
     border-radius: 4px;
+    cursor: pointer;
 }
+.issue summary {
+    text-align: center;
+}
+
 .issue a {
     color: black;
 }
